@@ -1,0 +1,33 @@
+{
+   "chainName":"hello-world",
+   "deployWaitTime":"100",
+   "user": {
+	"username": "JohnDoe",
+        "affiliation" : "group1"
+   },
+   "deployRequest":{
+      "chaincodePath":"chaincodes/BCDEMO2",
+      "functionName":"init",
+      "args":[]
+   },
+   "invokeRequest":{
+      "functionName":"CreateOrder",
+      "args":[
+         "{\"name\": \"Watson Ice Cream Delivery\",\"consigner_name\": \"\",\"consigner_phone\": \"\",\"consigner_address\": \"-\",\"serial\": \"221129\",\"flavour\": \"Strawberry\",\"price\": \"2.00\",\"total\": \"2468.00\",\"consignee_nane\": \"Huyi\",\"consignee_address\": \"Dalian\",\"consignee_phone\": \"+86 8888888888\",\"timestamp\": 1499932433042,\"enviorment_limit\": {\"temperature_low\": -30,\"temperature_high\": 0,\"humidity_low\": 20,\"humidity_high\": 50}"
+      ]
+   },
+   "invokeRequest2":{
+      "functionName":"CreateIOTInfo",
+      "args":[
+         "{\"driver_phone\": \"13100001122\",\"logistic_type\": \"vehicle\",\"driver_name\": \"张三\",\"location\": \"沈阳\",\"sensor_info\": {\"pressure\": 998.12,\"record_timestamp\": 1499929469.250185,\"humidity\": 59.889892578425,\"temperature\": 29.71875,\"brightness\": 335.84000000000003},\"transportation_no\": \"辽A2587\"}"
+      ]
+   },
+   "queryRequest":{
+      "functionName":"GetOrder",
+      "args":[]
+   },
+   "queryRequest2":{
+      "functionName":"ListIOTInfo",
+      "args":[]
+   }
+}

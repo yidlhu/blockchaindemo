@@ -1,0 +1,6 @@
+{
+  "isBluemix":"false",
+  "runOnBluemix":"false",
+   "chainCodeMode":"dev",
+   "chainName":"mychain"
+}
