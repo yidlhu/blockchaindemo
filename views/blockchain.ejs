@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html ng-app="myApp">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blockchain Demo View</title>
+<link rel="stylesheet" href="/stylesheets/style.css">
+<link rel="stylesheet" href="/stylesheets/app.css">
+<style type="text/css">
+h2.top_title{border-bottom:none;background:none;text-align:center;line-height:32px; font-size:20px}
+h2.top_title span{font-size:12px; color:#666;font-weight:500}
+</style>
+</head>
+
+<body ng-controller="BlockchainInfoCtrl" >
+<div id="header">
+</div>
+
+<h2 class="top_title"></h2>
+
+
+<div class="customer_jumbotron">
+	<h2>IBM Blockchain Detail Information</h2>
+	<p>In this page you can get the supply chain information of designated item. </p>
+</div>
+
+<div class="customer_orderInfo">
+	<h3>货物详细信息：</h3>
+	<h4><span>Delivery Name: {{order_info.name}}</span></h4>
+	<h4><span>收货人姓名: {{order_info.consignee_name}}</span></h4>
+	<h4><span>收货人电话: {{order_info.consignee_phone}}</span></h4>
+	<h4><span>收货人地址: {{order_info.consignee_address}}</span></h4>
+	<h4><span>发货时间: {{order_info.order_time}}</span></h4>
+</div>
+
+
+<section id="cd-timeline" class="cd-container" >
+	<div class="cd-timeline-block" ng-repeat="x in trace_info | orderBy:'-record_time'">
+		<div class="cd-timeline-img cd-sensor" ng-switch on="x.logistic_type">
+			<img ng-switch-when="airplane" src="img/airplane.png" alt="Picture">
+			<img ng-switch-when="vehicle" src="img/vehicle.png" alt="Picture">
+			<img ng-switch-when="ship" src="img/ship.png" alt="Picture">
+			<img ng-switch-when="train" src="img/train.png" alt="Picture">
+			<img ng-switch-default src="img/location.png" alt="Picture">
+		</div>
+
+		<div class="cd-timeline-content">
+			<h2>{{x.location}}</h2>
+			<h3><span class="label label-info">Environment Info</span></h3>
+			<h4><span>Driver Name: {{x.driver_name}}</span></h4>
+			<h4><span>Driver Phone Number: {{x.driver_phone}}</span></h4>
+			<h4><span>Sensor Record Time: {{x.record_time}}</span></h4>
+			<table class="table-bordered">
+				<thead>
+				<tr>
+					<th>气压</th>
+					<th>湿度</th>
+					<th>温度</th>
+					<th>亮度</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td>{{x.sensor_info.pressure.toFixed(1)}}</td>
+					<td>{{x.sensor_info.humidity.toFixed(1)}}</td>
+					<td>{{x.sensor_info.temperature.toFixed(1)}}</td>
+					<td>{{x.sensor_info.brightness.toFixed(1)}}</td>
+				</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+</section>
+
+<script src="js/lib/angular.min.js"></script>
+<script src="js/lib/angular-route.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/controllers.js"></script>
+</body>
+</html>

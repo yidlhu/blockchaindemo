@@ -1,0 +1,69 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+.customer_jumbotron {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 70%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 30px;
+  color:white;
+  background-color: rgba(0, 93, 216, 0.6);
+}
+.customer_orderInfo {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 10px;
+}
+.table-bordered {
+  width: 100%;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+  border: 1px solid #ddd;
+}
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td {
+  border-bottom-width: 2px;
+}

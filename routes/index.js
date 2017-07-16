@@ -4,7 +4,8 @@ var ctrler = require('../controllers/controller.js');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  // res.render('index', { title: 'Express' });
+  res.render('blockchain');
 });
 
 router.get('/about', function(req, res) {
