@@ -1,6 +1,6 @@
 /node_modules/
 /keyValStore*/
-/.idea/
+.idea/
 /ServiceCredentials.json
 /test.json
 /chaincodeID
