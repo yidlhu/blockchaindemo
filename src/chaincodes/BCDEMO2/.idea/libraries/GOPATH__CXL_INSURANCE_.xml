@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;CXL_INSURANCE&gt;">
+    <CLASSES>
+      <root url="file://$USER_HOME$/workspace/gopath/src/github.com" />
+      <root url="file://$USER_HOME$/workspace/gopath/src/golang.org" />
+      <root url="file://$USER_HOME$/workspace/gopath/src/chaincodes" />
+    </CLASSES>
+    <SOURCES>
+      <root url="file://$USER_HOME$/workspace/gopath/src/github.com" />
+      <root url="file://$USER_HOME$/workspace/gopath/src/golang.org" />
+      <root url="file://$USER_HOME$/workspace/gopath/src/chaincodes" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
