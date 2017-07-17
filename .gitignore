@@ -1,9 +1,6 @@
 /node_modules/
-/keyValStore-3391cf9a/
-/keyValStore-ca/
-/src/
+/keyValStore*/
 /.idea/
 /ServiceCredentials.json
 /test.json
-/keyValStore-a7e665d6/
 /chaincodeID
