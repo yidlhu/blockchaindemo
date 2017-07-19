@@ -57,8 +57,8 @@ h2.top_title span{font-size:12px; color:#666;font-weight:500}
 				<tr>
 					<th>气压</th>
 					<th>湿度</th>
-					<th><% if (x.sensor_info.temperature < order_info.temperature_low && x.sensor_info.temperature > order_info.temperature_high) { %><font color="red">温度</font> <% } else {%> 温度 <% } %></th>
-					<th><% if (x.sensor_info.humidity < order_info.humidity_low && x.sensor_info.humidity > order_info.humidity_high) { %><font color="red">亮度</font><% } else {%> 亮度 <% } %></th>
+					<th>({{x.sensor_info.temperature < order_info.temperature_low && x.sensor_info.temperature > order_info.temperature_high}})温度</th>
+					<th>({{x.sensor_info.humidity < order_info.humidity_low && x.sensor_info.humidity > order_info.humidity_high}})亮度</th>
 				</tr>
 				</thead>
 				<tbody>
