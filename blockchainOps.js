@@ -79,8 +79,8 @@ function init() {
             // Read chaincodeID and use this for sub sequent Invokes/Queries
 
             chaincodeID = fs.readFileSync(chaincodeIDPath, 'utf8');
-            chain.enroll(users[0].enrollId, users[0].enrollSecret, function (err, user) {
-                if (err) throw Error(" Failed to register and enroll " + ": " + err);
+            chain.getUser("admin", function (err, user) {
+                if (err) throw Error(" Failed to register and enroll " + deployerName + ": " + err);
                 userObj = user;
 
             });
