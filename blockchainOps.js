@@ -80,7 +80,7 @@ function init() {
 
             chaincodeID = fs.readFileSync(chaincodeIDPath, 'utf8');
             chain.enroll(users[0].enrollId, users[0].enrollSecret, function (err, user) {
-                if (err) throw Error(" Failed to register and enroll " + deployerName + ": " + err);
+                if (err) throw Error(" Failed to register and enroll " + ": " + err);
                 userObj = user;
 
             });
