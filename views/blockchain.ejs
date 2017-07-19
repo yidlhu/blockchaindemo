@@ -31,8 +31,8 @@ h2.top_title span{font-size:12px; color:#666;font-weight:500}
 	<h4><span>收货人电话: {{order_info.consignee_phone}}</span></h4>
 	<h4><span>收货人地址: {{order_info.consignee_address}}</span></h4>
 	<h4><span>发货时间: {{order_info.order_time}}</span></h4>
-	<h4><span>温度限制: {{order_info.temperature_low}} - {{order_info.temperature_high}}</span></h4>
-	<h4><span>湿度限制: {{order_info.humidity_low}} - {{order_info.humidity_high}}</span></h4>
+	<h4><span>温度限制: {{order_info.enviorment_limit.temperature_low}} ~ {{order_info.enviorment_limit.temperature_high}}</span></h4>
+	<h4><span>湿度限制: {{order_info.enviorment_limit.humidity_low}} ~ {{order_info.enviorment_limit.humidity_high}}</span></h4>
 </div>
 
 
