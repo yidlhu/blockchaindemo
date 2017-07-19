@@ -1,5 +1,4 @@
 /node_modules/
-/keyValStore*/
 .idea/
 /ServiceCredentials.json
 /test.json
