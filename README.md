@@ -41,17 +41,17 @@ The goal is to run [helloblockchain.js](https://github.com/ratnakar-asara/Node-S
 
  7.Login docker container of blockchain app
 
-        ```
+	```
 	run the command 'docker exec -it client_dev_s /bin/bash'
 	```
 
 8.Startup web application
 
         ```
-        cd $WORKSPACE/apps/DEMO
+	cd $WORKSPACE/apps/DEMO
 	root@xxx:~/workspace/apps/DEMO#./startup.sh
 	```
-
+        	
 9.visit app with browser
 
  	```
