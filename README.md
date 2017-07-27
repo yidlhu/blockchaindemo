@@ -4,10 +4,14 @@ The goal is to run [helloblockchain.js](https://github.com/ratnakar-asara/Node-S
 
 1. unzip fabric_images_v0.6.tar.zip to extract fabric images
 
-1. clone this repository
+2. Import fabric images
+
    ```
-   git clone https://github.com/IBM-Blockchain/SDK-Demo.git
-   ```jjj
+   #(Mac/Linux)          ./fabric_import.sh
+   ```
+   ```
+   #(Windows)            ./fabric_import.bat
+   ```
 
 1. Go to **SDK-Demo** folder and install hfc package with the below command:
 
