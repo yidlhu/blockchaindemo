@@ -45,14 +45,14 @@ The goal is to run [helloblockchain.js](https://github.com/ratnakar-asara/Node-S
 	run the command 'docker exec -it client_dev_s /bin/bash'
 	```
 
- 8.Startup web application
+8.Startup web application
 
-       ```
+        ```
         cd $WORKSPACE/apps/DEMO
 	root@xxx:~/workspace/apps/DEMO#./startup.sh
 	```
 
- 9.visit app with browser
+9.visit app with browser
 
  	```
 	(Mac/Linux)
@@ -61,7 +61,7 @@ The goal is to run [helloblockchain.js](https://github.com/ratnakar-asara/Node-S
 	http://192.168.99.100:3000/
 	```
 
- #Tips:
+#Tips:
 
  #1. If you want to reopen this environment,
  #please open a new terminal and execute command "docker-compose down" in workspace dir and then execute command "docker-  compose up".
