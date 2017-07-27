@@ -13,11 +13,18 @@ The goal is to run [helloblockchain.js](https://github.com/ratnakar-asara/Node-S
    #(Windows)            ./fabric_import.bat
    ```
 
-1. Go to **SDK-Demo** folder and install hfc package with the below command:
+3. Verify docker images with the below command:
 
 	```
-	npm install
+	docker images
 	```
+(should include 3 images as below:)
+(
+  hyperledger/fabric-membersrvc:x86_64-0.6.1-preview
+  hyperledger/fabric-peer:x86_64-0.6.1-preview
+  fabric_client:v0.6
+)
+
 
 1. Create a Bluemix account, login and using the Catlog and select the Blockchain service.  Once in the service select either a `Starter Developer plan` or `High Security Business Network plan` (if authorized).  Now, click on `CREATE` and get the `Service Credentials` for the service.   Cut and Paste this json file and save it  as ServiceCredentials.json  in your local directory where [helloblockchain.js](https://github.com/IBM-Blockchain/SDK-Demo/blob/master/helloblockchain.js)
 	- Refer the sample file in repo [here](https://github.com/IBM-Blockchain/SDK-Demo/blob/master/ServiceCredentials.json)
