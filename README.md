@@ -18,8 +18,7 @@ The goal is to run [helloblockchain.js](https://github.com/ratnakar-asara/Node-S
 	```
 	docker images
 	```
-(should include 3 images as below:)
-(
+(should include 3 images as below:
   hyperledger/fabric-membersrvc:x86_64-0.6.1-preview
   hyperledger/fabric-peer:x86_64-0.6.1-preview
   fabric_client:v0.6
