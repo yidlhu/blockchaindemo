@@ -25,7 +25,7 @@ The goal is to run [helloblockchain.js](https://github.com/ratnakar-asara/Node-S
  )
 
 
-4. Run the command unzip workspace.zip ./ to extract workspace file
+4. Run the command unzip workspace.zip to extract workspace file
 
 1.  The node sdk will create the keyValStore directory and store cryptography data for each user that registers.
     ```
