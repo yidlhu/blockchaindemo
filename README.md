@@ -32,12 +32,15 @@ The goal is to deploy blockchain demo on local blockchain docker images.  It is 
     cd workspace
     run the command 'docker-compose up'
     ```
-     
+   <img width="584" alt="5 docker-compose up" src="https://user-images.githubusercontent.com/30460101/28655822-d0bf2db6-72d0-11e7-961d-4e09d9e8d88e.png">
+
+  
 6. Verify docker containers(Open another terminal #Tip1)
 	```
 	run the command 'docker ps'
 	```
  (should include 3 containers as below: client_dev_s  , peer_dev_s  , ca_dev_s)
+<img width="581" alt="6 docker ps" src="https://user-images.githubusercontent.com/30460101/28655823-d0cbb5a4-72d0-11e7-9422-a1ed586ccfb5.png">
 
  7.Login docker container of blockchain app
 
