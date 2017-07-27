@@ -23,7 +23,7 @@ The goal is to deploy blockchain demo on local blockchain docker images.  It is 
    hyperledger/fabric-peer:x86_64-0.6.1-preview  ,
    fabric_client:v0.6
  )
-
+<img width="586" alt="3 docker images" src="https://user-images.githubusercontent.com/30460101/28655824-d0cccb42-72d0-11e7-9404-dfa69ec18823.png">
 
 4. Run the command 'unzip workspace.zip' to extract workspace file
 
