@@ -59,7 +59,7 @@ The goal is to deploy blockchain demo on local blockchain docker images.  It is 
 
  	```
 	(Mac/Linux)
-	http://127.0.0.1:3000/
+	http://localhost:3000/
 	(Windows):(You can get this IP by command "docker-machine ip default" #Tip2)
 	http://192.168.99.100:3000/
 	```
