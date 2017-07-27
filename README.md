@@ -25,30 +25,24 @@ The goal is to run [helloblockchain.js](https://github.com/ratnakar-asara/Node-S
  )
 
 
-4. Run the command unzip workspace.zip to extract workspace file
+4. Run the command 'unzip workspace.zip' to extract workspace file
 
-1.  The node sdk will create the keyValStore directory and store cryptography data for each user that registers.
+5.  Startup docker network and keep this terminal opening
     ```
-    WARNING: Once enrollment is successful you will see the crypto material under keyValStore-<network-id>
-             Don't delete this material till your network is deleted or reset.
-	     If you lost this cryptography data you can't communicate with Bluemix CA server, thus enrollment fails	
+    cd workspace
+    run the command 'docker-compose up'
     ```
      
-1. From SDK-Demo folder run node program:
+6. Verify docker containers(Open another terminal)
 	```
-	node helloblockchain.js
+	run the command 'docker ps'
 	```
-	**To enable debug logs :**
-	```
-	DEBUG=hfc node helloblockchain.js
-	```
+ (should include 3 containers as below: client_dev_s  , peer_dev_s  , ca_dev_s)
 
-	**To enable grpc traces:**
-	```
-	GRPC_TRACE=all DEBUG=hfc node helloblockchain.js
-	```
 
-Once Deploy/Invoke and Query are successful, we should see the below messages:
+
+
+
 
 ```
 Successfully deployed chaincode: request={"fcn":"init","args":["a","100","b","200"],"certificatePath":"/certs/blockchain-cert.pem","chaincodePath":"chaincode_example02"}, response={"uuid":"2d6ad8d6-1390-4c60-a01b-f4c301175eb7","chaincodeID":"9be0a0ed3f1788e8728c8911c747d2f6d0e205fa63422dc598d498fe709b9b8d","result":"TODO: get actual results; waited 120 seconds and assumed deploy was successful"}
