@@ -25,10 +25,7 @@ The goal is to run [helloblockchain.js](https://github.com/ratnakar-asara/Node-S
  )
 
 
-1. Create a Bluemix account, login and using the Catlog and select the Blockchain service.  Once in the service select either a `Starter Developer plan` or `High Security Business Network plan` (if authorized).  Now, click on `CREATE` and get the `Service Credentials` for the service.   Cut and Paste this json file and save it  as ServiceCredentials.json  in your local directory where [helloblockchain.js](https://github.com/IBM-Blockchain/SDK-Demo/blob/master/helloblockchain.js)
-	- Refer the sample file in repo [here](https://github.com/IBM-Blockchain/SDK-Demo/blob/master/ServiceCredentials.json)
-
-     ![alt tag](servicecreds.png)
+4. Run the command unzip workspace.zip ./ to extract workspace file
 
 1.  The node sdk will create the keyValStore directory and store cryptography data for each user that registers.
     ```
