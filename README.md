@@ -47,6 +47,7 @@ The goal is to deploy blockchain demo on local blockchain docker images.  It is 
 	```
 	run the command 'docker exec -it client_dev_s /bin/bash'
 	```
+<img width="581" alt="7 docker exec" src="https://user-images.githubusercontent.com/30460101/28656283-9ce063f4-72d3-11e7-8188-b9d760950f06.png">
 
 8.Startup web application
 
@@ -54,7 +55,8 @@ The goal is to deploy blockchain demo on local blockchain docker images.  It is 
 	cd $WORKSPACE/apps/DEMO
 	root@xxx:~/workspace/apps/DEMO#./startup.sh
 	```
-        	
+  <img width="775" alt="8 1" src="https://user-images.githubusercontent.com/30460101/28656282-9cd9c3d2-72d3-11e7-8121-4bf1b3030ab5.png">
+<img width="774" alt="8 2" src="https://user-images.githubusercontent.com/30460101/28656281-9cc79af4-72d3-11e7-8ed0-444a3b7f272b.png">      	
 9.visit app with browser
 
  	```
