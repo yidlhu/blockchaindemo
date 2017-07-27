@@ -2,7 +2,7 @@
 
 The goal is to run [helloblockchain.js](https://github.com/ratnakar-asara/Node-Sample/blob/master/helloblockchain.js) sample program, which will deploy example02 chaincode and query/invoke it.
 
-1. unzip fabric_images_v0.6.tar.zip to extract fabric images
+1. Find your project folder, e.g. /Users/Documents/Blockchain@Local, then run the command: 'unzip fabric_images_v0.6.tar.zip'  to extract fabric images
 
 2. Import fabric images
 
