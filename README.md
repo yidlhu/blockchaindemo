@@ -2,8 +2,7 @@
 
 The goal is to run [helloblockchain.js](https://github.com/ratnakar-asara/Node-Sample/blob/master/helloblockchain.js) sample program, which will deploy example02 chaincode and query/invoke it.
 
-1. Install npm if not installed already, instructions are [here](http://blog.npmjs.org/post/85484771375/how-to-install-npm)
-   Install Node.js v6.2.0 - v6.10.0 (Node v7+ is not supported)
+1. unzip fabric_images_v0.6.tar.zip to extract fabric images
 
 1. clone this repository
    ```
