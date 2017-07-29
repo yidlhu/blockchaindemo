@@ -4,17 +4,17 @@ The goal is to deploy blockchain demo on local blockchain docker images.  It is 
 
 1. Find your project folder, e.g. /Users/Documents/Blockchain@Local, then run the command: 'unzip fabric_images_v0.6.tar.zip'  to extract fabric images
 
-2. Need to import fabric images （Keep the below file with same folder with "fabric_images_v0.6.tar"）by following steps:
-	<b>#(Mac/Linux)</b> open Terminal and execute the file: <b>fabric_import.sh</b> by the commands:
-	eg:	cd /Users/Documents/Blockchain@Local
-		./fabric_import.sh
+2. Need to import fabric images （Keep the below file with same folder with "fabric_images_v0.6.tar"）by following steps:<br>
+	<b>#(Mac/Linux)</b> open Terminal and execute the file: <b>fabric_import.sh</b> by the commands: <br>
+	eg:	cd /Users/Documents/Blockchain@Local <br>
+		./fabric_import.sh	<br>
 	 
-	 <b>#(Windows)</b> 
-	 (1) Start Menu at All Apps > Windows System > Run
-	 (2) run command line interface by input: cmd
-	 (3) go to the folder you stored the tar file and execute the batch file.
-	 eg:	cd /Users/Documents/Blockchain@Local
-	 	./fabric_import.bat
+	 <b>#(Windows)</b> <br>
+	 (1) Start Menu at All Apps > Windows System > Run   	<br>
+	 (2) run command line interface by input: cmd		<br>
+	 (3) go to the folder you stored the tar file and execute the batch file.	<br>
+	 eg:	cd /Users/Documents/Blockchain@Local		<br>
+	 	./fabric_import.bat				<br>
 	 		
   * You can get the sh/bat file at:
   https://github.com/yidlhu/blockchaindemo/blob/master/fabric_import.sh
