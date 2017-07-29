@@ -29,7 +29,7 @@ The goal is to deploy blockchain demo on local blockchain docker images.  It is 
 
 4. Run the command 'unzip workspace.zip' to extract workspace file
 
-5.  Startup docker network and keep this terminal opening （https://github.com/yidlhu/blockchaindemo/blob/master/docker-compose.yml） （copy it into "workspace" folder）
+5.  Startup docker network and keep this terminal opening https://github.com/yidlhu/blockchaindemo/blob/master/docker-compose.yml （copy it into "workspace" folder）
     ```
     cd workspace
     run the command 'docker-compose up'
