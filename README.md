@@ -4,16 +4,21 @@ The goal is to deploy blockchain demo on local blockchain docker images.  It is 
 
 1. Find your project folder, e.g. /Users/Documents/Blockchain@Local, then run the command: 'unzip fabric_images_v0.6.tar.zip'  to extract fabric images
 
-2. By executing the file: <b>fabric_import.sh</b> or <b>fabric_import.bat</b> to import fabric images （Keep the below file with same folder with "fabric_images_v0.6.tar"）.
-
-   https://github.com/yidlhu/blockchaindemo/blob/master/fabric_import.sh
-   ```
-   #(Mac/Linux)          ./fabric_import.sh
-   ```
-   https://github.com/yidlhu/blockchaindemo/blob/master/fabric_import.bat
-   ```
-   #(Windows)            ./fabric_import.bat
-   ```
+2. Need to import fabric images （Keep the below file with same folder with "fabric_images_v0.6.tar"）by following steps:
+	<b>#(Mac/Linux)</b> open Terminal and execute the file: <b>fabric_import.sh</b> by the commands:
+	eg:	cd /Users/Documents/Blockchain@Local
+		./fabric_import.sh
+	 
+	 <b>#(Windows)</b> 
+	 (1) Start Menu at All Apps > Windows System > Run
+	 (2) run command line interface by input: cmd
+	 (3) go to the folder you stored the tar file and execute the batch file.
+	 eg:	cd /Users/Documents/Blockchain@Local
+	 	./fabric_import.bat
+	 		
+  * You can get the sh/bat file at:
+  https://github.com/yidlhu/blockchaindemo/blob/master/fabric_import.sh
+  https://github.com/yidlhu/blockchaindemo/blob/master/fabric_import.bat
 
 3. Verify docker images with the below command:
 
@@ -55,7 +60,7 @@ The goal is to deploy blockchain demo on local blockchain docker images.  It is 
 
         ```
 	cd $WORKSPACE/apps/DEMO
-	root@xxx:~/workspace/apps/DEMO#./startup.sh
+	root@xxx:~/workspace/apps/DEMO/startup.sh
 	```
   <img width="775" alt="8 1" src="https://user-images.githubusercontent.com/30460101/28656282-9cd9c3d2-72d3-11e7-8121-4bf1b3030ab5.png">
 <img width="774" alt="8 2" src="https://user-images.githubusercontent.com/30460101/28656281-9cc79af4-72d3-11e7-8ed0-444a3b7f272b.png">      	
