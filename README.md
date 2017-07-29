@@ -77,4 +77,6 @@ The goal is to deploy blockchain demo on local blockchain docker images.  It is 
  #2. When you open a new terminal in Windows every time,
  #please execute "docker-machine env" to initialize docker environment firstly.
 
-
+ #3. For Bluemix Environment
+  guide: https://github.com/yidlhu/blockchaindemo/blob/master/readme%40bluemix.txt
+  workspace: https://ibm.box.com/s/dj4p2dzxw02ibvt8ppubigcangzqvk69
