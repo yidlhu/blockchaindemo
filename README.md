@@ -4,7 +4,7 @@ The goal is to deploy blockchain demo on local blockchain docker images.  It is 
 
 1. Find your project folder, e.g. /Users/Documents/Blockchain@Local, then run the command: 'unzip fabric_images_v0.6.tar.zip'  to extract fabric images
 
-2. Import fabric images
+2. Import fabric images （Keep the below file with same folder with "fabric_images_v0.6.tar"）
 
    https://github.com/yidlhu/blockchaindemo/blob/master/fabric_import.sh
    ```
@@ -29,7 +29,7 @@ The goal is to deploy blockchain demo on local blockchain docker images.  It is 
 
 4. Run the command 'unzip workspace.zip' to extract workspace file
 
-5.  Startup docker network and keep this terminal opening https://github.com/yidlhu/blockchaindemo/blob/master/docker-compose.yml （copy it into "workspace" folder）
+5.  Startup docker network and keep this terminal opening https://github.com/yidlhu/blockchaindemo/blob/master/docker-compose.yml （Keep the below file in the folder of "workspace"）
     ```
     cd workspace
     run the command 'docker-compose up'
