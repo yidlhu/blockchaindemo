@@ -1,0 +1,54 @@
+ca:
+  container_name: ca_dev_s
+  image: hyperledger/fabric-membersrvc:x86_64-0.6.1-preview
+  ports:
+    - "7054:7054"
+  volumes: # docker.sock is mapped as the default CORE_VM_ENDPOINT
+    - /var/run/docker.sock:/var/run/docker.sock
+  command: membersrvc  # this repeats the default cmd to make sure
+
+vp:
+  container_name: peer_dev_s
+  image: hyperledger/fabric-peer:x86_64-0.6.1-preview
+  ports:
+    - "7050:7050"
+    - "7051:7051"
+    - "7053:7053"
+  environment:
+    - CORE_PEER_NETWORKID=dev
+    - CORE_PEER_ADDRESSAUTODETECT=true
+    - CORE_VM_ENDPOINT=unix:///var/run/docker.sock
+    - CORE_LOGGING_LEVEL=DEBUG
+    - CORE_PEER_ID=vp0
+    - CORE_SECURITY_ENABLED=true
+    - CORE_PEER_PKI_ECA_PADDR=ca:7054
+    - CORE_PEER_PKI_TCA_PADDR=ca:7054
+    - CORE_PEER_PKI_TLSCA_PADDR=ca:7054
+    - CORE_PEER_VALIDATOR_CONSENSUS_PLUGIN=noops
+  volumes:
+    - /var/run/docker.sock:/var/run/docker.sock
+  command: sh -c "sleep 10; peer node start --peer-chaincodedev"
+  links:
+    - ca
+
+client:
+  container_name: client_dev_s
+  image: fabric_client:v0.6
+  ports:
+    - "3000:3000"
+  volumes:
+    - ./dev/chaincodes:/root/workspace/gopath/src/chaincodes
+    - ./dev/apps:/root/workspace/apps
+  environment:
+    - MEMBERSRVC_ADDRESS=ca:7054
+    - PEER_ADDRESS=vp:7051
+    - KEY_VALUE_STORE=/tmp/hl_sdk_node_key_value_store
+    # set to following to 'dev' if peer running in Developer mode
+    - DEPLOY_MODE=dev
+    - CORE_CHAINCODE_ID_NAME=DEMO
+    - CORE_PEER_ADDRESS=vp:7051
+  # the following command will start the chain code when this container starts and ready it for deployment by the app
+  command: sh -c "cd /root/workspace/gopath/src/chaincodes/DEMO; go build; sleep 10; ./DEMO"
+  links:
+    - ca
+    - vp
