@@ -81,11 +81,13 @@ The node-red starter template default to binding Node-RED app and Cloudant DB. T
 
 8) 'Type' options => 'Linsen on', click edit URL for defining your Websocket service path. (My sample is '/ws/client/blockchain') Select 'Send/Recieve entire message' and then click 'Update' Button, then it move to the previous page, then click 'Done' button.
 
-<img width="1010" alt="screen shot 2017-08-02 at 11 42 52 am" src="https://user-images.githubusercontent.com/6285682/28859651-34731f7a-778b-11e7-8819-8c8df4092b34.png">
-
 <img width="1015" alt="screen shot 2017-08-02 at 11 42 13 am" src="https://user-images.githubusercontent.com/6285682/28859589-ca92a3be-778a-11e7-9d99-73dac8758113.png">
 
+<img width="1010" alt="screen shot 2017-08-02 at 11 42 52 am" src="https://user-images.githubusercontent.com/6285682/28859651-34731f7a-778b-11e7-8819-8c8df4092b34.png">
+
 9) Drag the entry point and connect the nodes betwee 'jason' and 'Websocket' node your created just now. Then click the 'Deploy' button on the top of righ side.
+
+<img width="1252" alt="screen shot 2017-08-02 at 1 42 06 pm" src="https://user-images.githubusercontent.com/6285682/28859735-ace77ee2-778b-11e7-8cc1-4015457e2926.png">
 
 Now you complete the your Node-RED build part in this guide
 
