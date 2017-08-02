@@ -27,8 +27,16 @@ The node-red starter template default to binding Node-RED app and Cloudant DB. T
 
 ## 6. Click 'Go to your Node-RED flow editor' button and move to the flow editor page and start to config your flow
 1) Drag 'Websocket' node from the 'Input' section
-2) Double Click the 
+2) Double Click the 'Websocket' node, it will open the configuration page
+3) 'Type' Options => 'Connect to', click 'Edit' button right behind 'URL'
+4) 'URL' input box value is 'ws://sensoriot.mybluemix.net/ws/iot', select 'Send/Recieve Payload' options, then click 'Update' button, it will move to the previous page, then you can input the nick name for node or leave it as empty. Then, click 'Done' button to finish the configuration.(I input the nick name 'iot-device' for this node in my sample)
+5) From function section drag 'json' node in order to format the incoming data from string to json
+6) Drag the 'Debug' node from output section, it will be renamed to 'msg.payload' automatiically, and connect 'iot-device' node, 'json' node, and 'msg.payload' node by drag from entry point to the other. Like the sample I provided below.
+7) Drag another 'Websocket' node from output section, double click to edit.
+8) 'Type' options => 'Linsen on', click edit URL for defining your Websocket service path. (My sample is '/ws/client/blockchain') Select 'Send/Recieve entire message' and then click 'Update' Button, then it move to the previous page, then click 'Done' button.
+9) Drag the entry point and connect the nodes betwee 'jason' and 'Websocket' node your created just now. Then click the 'Deploy' button on the top of righ side.
 
+Now you complete the your Node-RED build part in this guide
 
 # How to deploy blockchain demo into local docker environment
 
