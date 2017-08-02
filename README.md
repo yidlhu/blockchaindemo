@@ -9,26 +9,58 @@ If you are not satisfied the pre-condition, please following the guide in the in
 
 ## 1. Click the 'menu' icon on the top left, and select the 'Dashboard' option to move your page to the 'Dashboard'
 
+<img width="460" alt="screen shot 2017-08-02 at 11 13 14 am" src="https://user-images.githubusercontent.com/6285682/28859239-cd734d42-7788-11e7-8277-41addacca5fb.png">
+
 ## 2. Click the 'Create App' button in the 'All Apps' section in order to create your node-red app
 
+<img width="1223" alt="screen shot 2017-08-02 at 11 14 47 am" src="https://user-images.githubusercontent.com/6285682/28859306-2743e7aa-7789-11e7-8666-278cc15606a9.png">
+
 ## 3. In the search box type 'node-red' to speed up to seek the 'Node-RED Starter', then click the item
+
+<img width="1292" alt="screen shot 2017-08-02 at 11 16 38 am" src="https://user-images.githubusercontent.com/6285682/28859330-46b55cb8-7789-11e7-8ef8-42ac82182111.png">
 
 ## 4. Input App Name, give an unique name. As my example, I used 'myownnode' as my unique name, then click the 'Create' button
 
 The node-red starter template default to binding Node-RED app and Cloudant DB. The initial process will take some time, since the Bluemix need to initial the environment and grant the database service authority.
 
+<img width="1288" alt="screen shot 2017-08-02 at 11 21 04 am" src="https://user-images.githubusercontent.com/6285682/28859405-94b8693c-7789-11e7-9865-3277cb67defb.png">
+
 ## 5. Click the 'Visit App URL' link to launch your Node-RED when it was ready. It will show you some configuration step on the page.
-1) On the first page, just click 'Next' Button, to move the next page
+
+<img width="1283" alt="screen shot 2017-08-02 at 11 25 36 am" src="https://user-images.githubusercontent.com/6285682/28859424-b4858bb4-7789-11e7-9286-34c83d172cc3.png">
+
+1) On the first page, just click 'Next' Button, to move the next page.
+
+<img width="907" alt="screen shot 2017-08-02 at 11 27 50 am" src="https://user-images.githubusercontent.com/6285682/28859433-caed1dc2-7789-11e7-8666-87f79671ab81.png">
+
 2) The second page required your security strategy and ask you to provide the name/password to access the app, just choose the 'Allow anyone to access the editor' option in order to simplified the step.
 
-3) Leave the the third page and just click the 'Next' Button, not choose any option from the page
+<img width="848" alt="screen shot 2017-08-02 at 11 28 33 am" src="https://user-images.githubusercontent.com/6285682/28859443-d81839be-7789-11e7-8334-657e45f221d2.png">
 
-4) Click the 'Finish' Button to complete the initialization process and waiting for your Node-RED getting started
+3) Leave the the third page and just click the 'Next' Button, not choose any option from the page.
+
+<img width="851" alt="screen shot 2017-08-02 at 11 31 03 am" src="https://user-images.githubusercontent.com/6285682/28859459-eaf0252e-7789-11e7-883a-3fc75c3c9f62.png">
+
+4) Click the 'Finish' Button to complete the initialization process and waiting for your Node-RED getting started.
+
+<img width="866" alt="screen shot 2017-08-02 at 11 33 21 am" src="https://user-images.githubusercontent.com/6285682/28859471-ff8a630a-7789-11e7-8de2-7542e464e445.png">
 
 ## 6. Click 'Go to your Node-RED flow editor' button and move to the flow editor page and start to config your flow
-1) Drag 'Websocket' node from the 'Input' section
-2) Double Click the 'Websocket' node, it will open the configuration page
-3) 'Type' Options => 'Connect to', click 'Edit' button right behind 'URL'
+
+<img width="1154" alt="screen shot 2017-08-02 at 11 33 50 am" src="https://user-images.githubusercontent.com/6285682/28859479-0f5ac0d6-778a-11e7-8cba-fae576fdc1ef.png">
+
+1) Drag 'Websocket' node from the 'Input' section.
+
+<img width="616" alt="screen shot 2017-08-02 at 11 36 36 am" src="https://user-images.githubusercontent.com/6285682/28859487-1f7ac3f8-778a-11e7-89ac-8f03390ed2ef.png">
+
+2) Double Click the 'Websocket' node, it will open the configuration page.
+
+<img width="1016" alt="screen shot 2017-08-02 at 11 39 11 am" src="https://user-images.githubusercontent.com/6285682/28859488-210dc558-778a-11e7-8bea-b91e44921772.png">
+
+3) 'Type' Options => 'Connect to', click 'Edit' button right behind 'URL'.
+
+<img width="1016" alt="screen shot 2017-08-02 at 11 39 11 am" src="https://user-images.githubusercontent.com/6285682/28859499-2a7f599e-778a-11e7-8cea-06d3c483c0dc.png">
+
 4) 'URL' input box value is 'ws://sensoriot.mybluemix.net/ws/iot', select 'Send/Recieve Payload' options, then click 'Update' button, it will move to the previous page, then you can input the nick name for node or leave it as empty. Then, click 'Done' button to finish the configuration.(I input the nick name 'iot-device' for this node in my sample)
 5) From function section drag 'json' node in order to format the incoming data from string to json
 6) Drag the 'Debug' node from output section, it will be renamed to 'msg.payload' automatiically, and connect 'iot-device' node, 'json' node, and 'msg.payload' node by drag from entry point to the other. Like the sample I provided below.
