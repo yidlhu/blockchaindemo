@@ -1,3 +1,35 @@
+# How to create your own Node-Red enviroment in Bluemix
+The intent of this guide in this section primary focus on the client environment to create Node-Red to connect to the IoT Websocket services in order to get the data from the device.
+
+Before your start this guide in this section, assume you completed some pre-condition, which include:
+1) User already have Bluemix account, space, and already in some organization
+2) User already have some knowledge about node-red and already knew how to use it
+
+If you are not satisfied the pre-condition, please following the guide in the invitation letter to have your own Bluemix account.
+
+## 1. Click the 'menu' icon on the top left, and select the 'Dashboard' option to move your page to the 'Dashboard'
+
+## 2. Click the 'Create App' button in the 'All Apps' section in order to create your node-red app
+
+## 3. In the search box type 'node-red' to speed up to seek the 'Node-RED Starter', then click the item
+
+## 4. Input App Name, give an unique name. As my example, I used 'myownnode' as my unique name, then click the 'Create' button
+
+The node-red starter template default to binding Node-RED app and Cloudant DB. The initial process will take some time, since the Bluemix need to initial the environment and grant the database service authority.
+
+## 5. Click the 'Visit App URL' link to launch your Node-RED when it was ready. It will show you some configuration step on the page.
+1) On the first page, just click 'Next' Button, to move the next page
+2) The second page required your security strategy and ask you to provide the name/password to access the app, just choose the 'Allow anyone to access the editor' option in order to simplified the step.
+
+3) Leave the the third page and just click the 'Next' Button, not choose any option from the page
+
+4) Click the 'Finish' Button to complete the initialization process and waiting for your Node-RED getting started
+
+## 6. Click 'Go to your Node-RED flow editor' button and move to the flow editor page and start to config your flow
+1) Drag 'Websocket' node from the 'Input' section
+2) Double Click the 
+
+
 # How to deploy blockchain demo into local docker environment
 
 The goal is to deploy blockchain demo on local blockchain docker images.  It is a blockchain demo for 2017 innovation day training.
