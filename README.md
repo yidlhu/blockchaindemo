@@ -91,6 +91,9 @@ The node-red starter template default to binding Node-RED app and Cloudant DB. T
 
 Now you complete the your Node-RED build part in this guide
 
+----
+----
+
 # How to deploy blockchain demo into local docker environment
 
 The goal is to deploy blockchain demo on local blockchain docker images.  It is a blockchain demo for 2017 innovation day training.
