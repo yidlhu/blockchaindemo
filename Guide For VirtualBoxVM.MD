@@ -9,17 +9,36 @@
 
 ***
 
-# 启动Blockchain Network
+# 步骤A 启动Blockchain Network
 - Open Terminal and input the commands below:
 ```
 cd ~/Desktop/Blockchain
 ./startNet.sh
 ```
-一个blockchain的testing network就启动起来了。
+<img src="https://user-images.githubusercontent.com/18717367/28910668-63f03244-7860-11e7-93c3-c0855c87075a.png" style="max-width:100%;">
 
-# 启动 Blockchain DEMO 应用
+# 步骤B 在虚拟机内修改startApp.sh
+- 在Ubuntu虚拟机内的桌面双击打开`Blockchain`文件夹
+- 双击在编辑器中打开编辑`startApp.sh`文件
+- 找到下面的语句：
+
+#### export WS_URL=wss://`clientnode`.mybluemix.net/ws/client/data 
+
+- 把 `clientnode` 替换为你刚刚在bluemix中建立的 Node-Red 的名字。
+
+# 步骤C 启动 Blockchain DEMO 应用
 - Open ***`another`*** Terminal and input the commands below:
+- 在另一个terminal窗口输入命令：
 ```
 cd ~/Desktop/Blockchain
 ./startApp.sh
-```    
+```
+<img src="https://user-images.githubusercontent.com/18717367/28910697-81a195ee-7860-11e7-96f5-9304c9b7bb70.png" style="max-width:100%;">
+
+# 如果遇到websocke错误，则是因为步骤B 的名字修改有问题，或者Node-Red有问题。解决问题后，重复 步骤A 和 步骤C.
+
+# 访问 Blockchain DEMO webpage
+Open browser in Ubuntu VM, and access the URL:
+`http://127.0.0.1:3000/`
+<img src="https://user-images.githubusercontent.com/18717367/28910761-bc82d074-7860-11e7-8763-70f49fc0da31.png" style="max-width:100%;">
+***
