@@ -97,11 +97,12 @@ Now you complete the your Node-RED build part in this guide
 ----
 # Next Step -- Follow the Guide for Blockchain on VirtualBoxVM environment --
 
-http://https://github.com/yidlhu/blockchaindemo/blob/master/GuideForVirtualBoxVM.MD
+https://github.com/yidlhu/blockchaindemo/blob/master/GuideForVirtualBoxVM.MD
 
 ----
-# Optional Guide:
-
+# 下面的Guide是可选的,非虚拟机环境的Guide, Optional Guide:
+***
+***
 # How to deploy blockchain demo into local docker environment
 
 The goal is to deploy blockchain demo on local blockchain docker images.  It is a blockchain demo for 2017 innovation day training.
