@@ -17,6 +17,8 @@ cd ~/Desktop/Blockchain
 ```
 <img src="https://user-images.githubusercontent.com/18717367/28910668-63f03244-7860-11e7-93c3-c0855c87075a.png" style="max-width:100%;">
 
+# 注意 请保持上面的Blockchain Network窗口不要关闭
+
 # 步骤B 在虚拟机内修改startApp.sh
 - 在Ubuntu虚拟机内的桌面双击打开`Blockchain`文件夹
 - 双击在编辑器中打开编辑`startApp.sh`文件
@@ -29,7 +31,7 @@ https://github.com/yidlhu/blockchaindemo/blob/master/README.md
 
 # 步骤C 启动 Blockchain DEMO 应用
 - Open ***`another`*** Terminal and input the commands below:
-- 在另一个terminal窗口输入命令：
+- 在***另一个***terminal窗口输入命令：
 ```
 cd ~/Desktop/Blockchain
 ./startApp.sh
