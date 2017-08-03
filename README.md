@@ -78,7 +78,7 @@ The node-red starter template default to binding Node-RED app and Cloudant DB. T
 
 <img width="701" alt="screen shot 2017-08-02 at 11 41 45 am" src="https://user-images.githubusercontent.com/6285682/28859586-c8ffa01a-778a-11e7-8e69-55619861edf7.png">
 
-7) Drag another 'Websocket' node from `***output***` section, double click to edit.
+7) Drag another 'Websocket' node from `output` section, double click to edit.
 
 <img width="726" alt="screen shot 2017-08-02 at 1 36 55 pm" src="https://user-images.githubusercontent.com/6285682/28859655-376a7660-778b-11e7-8a6e-525ce0343bc7.png">
 
