@@ -100,7 +100,7 @@ Now you complete the your Node-RED build part in this guide
 https://github.com/yidlhu/blockchaindemo/blob/master/GuideForVirtualBoxVM.MD
 
 ----
-# 下面的Guide是可选的,非虚拟机环境的Guide, Optional Guide:
+# 下面的Guide是可选的步骤,非虚拟机环境的Guide,耗时比较长, Optional Guide:
 ***
 ***
 # How to deploy blockchain demo into local docker environment
