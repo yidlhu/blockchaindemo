@@ -24,7 +24,8 @@ cd ~/Desktop/Blockchain
 
 #### export WS_URL=wss://`clientnode`.mybluemix.net/ws/client/data 
 
-- 把 `clientnode` 替换为你刚刚在bluemix中建立的 Node-Red 的名字。
+- 把 `clientnode` 替换为你刚刚在bluemix中建立的 Node-Red 的名字。如果没有建立Node-Red请参考这个链接
+https://github.com/yidlhu/blockchaindemo/blob/master/README.md
 
 # 步骤C 启动 Blockchain DEMO 应用
 - Open ***`another`*** Terminal and input the commands below:
@@ -45,7 +46,7 @@ Open browser in Ubuntu VM, and access the URL:
 ***
 # Exercises:
 ## 1. Make a chaincode "hello" and do unit testing.
-  ### 1.1. enter the fabric_client environment of Docker Container(In new Terminal)
+  ### 1.1. (In new Terminal) enter the fabric_client environment of Docker Container 
   ```
     docker exec -it client_dev_s /bin/bash
   ```
@@ -59,18 +60,20 @@ Open browser in Ubuntu VM, and access the URL:
     go test
   ```
 ## 2. Startup chaincode "hello" in DEV mode by REST
-  ### 2.1. enter the fabric_client environment of Docker Container(In new Terminal)
+  ### 2.1. (In new Terminal) enter the fabric_client environment of Docker Container 
   ```
-    docker exec -it client_dev_s /bin/bash
+    ./login_workspace.sh  或者
+    docker exec -it client_dev_s /bin/bash
   ```
   ### 2.2. startup chaincode DEV environment
   ```
-    cd $GOPATH/src/chain codes/hello/scripts
+    cd $GOPATH/src/chaincodes/hello/scripts
     ./startup.sh
   ```
 ## 3. Access chaincode "hello" by REST API(Deploy, Invoke, Query)
-  ### 3.1. enter the fabric_client environment of Docker Container(In new Terminal)
+  ### 3.1. (In new Terminal) enter the fabric_client environment of Docker Container  
   ```
+    ./login_workspace.sh  或者
     docker exec -it client_dev_s /bin/bash
   ```
   ### 3.2. deploy chaincode
