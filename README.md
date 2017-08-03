@@ -25,6 +25,9 @@ The node-red starter template default to binding Node-RED app and Cloudant DB. T
 
 <img width="1288" alt="screen shot 2017-08-02 at 11 21 04 am" src="https://user-images.githubusercontent.com/6285682/28859405-94b8693c-7789-11e7-9865-3277cb67defb.png">
 
+<img width="1288" alt="screen shot 2017-08-02 at 11 21 05 am" src="https://user-images.githubusercontent.com/18477412/28903408-421b87be-7837-11e7-81f1-b3d367f68ebe.png">
+
+
 ## 5. Click the 'Visit App URL' link to launch your Node-RED when it was ready. It will show you some configuration step on the page.
 
 <img width="1283" alt="screen shot 2017-08-02 at 11 25 36 am" src="https://user-images.githubusercontent.com/6285682/28859424-b4858bb4-7789-11e7-9286-34c83d172cc3.png">
