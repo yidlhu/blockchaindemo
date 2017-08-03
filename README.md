@@ -97,7 +97,7 @@ Now you complete the your Node-RED build part in this guide
 ----
 # Next Step -- Follow the Guide for Blockchain on VirtualBoxVM environment --
 
-`https://github.com/yidlhu/blockchaindemo/blob/master/Guide For VirtualBoxVM.MD`
+http://https://github.com/yidlhu/blockchaindemo/blob/master/GuideForVirtualBoxVM.MD
 
 ----
 # Optional Guide:
