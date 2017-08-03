@@ -24,10 +24,12 @@ cd ~/Desktop/Blockchain
 - 双击在编辑器中打开编辑`startApp.sh`文件
 - 找到下面的语句：
 
-#### export WS_URL=wss://`clientnode`.mybluemix.net/ws/client/data 
-
+#### export WS_URL=wss://`clientnode`.mybluemix.net/ws/client/`data` 
+- 把 `data` 改为 `blockchain`
 - 把 `clientnode` 替换为你刚刚在bluemix中建立的 Node-Red 的名字。如果没有建立Node-Red请参考这个链接
 https://github.com/yidlhu/blockchaindemo/blob/master/README.md
+#### 修改后应该看起来是这个样子的
+#### export WS_URL=wss://`yournoderedname`.mybluemix.net/ws/client/`blockchain` 
 
 # 步骤C 启动 Blockchain DEMO 应用
 - Open ***`another`*** Terminal and input the commands below:
