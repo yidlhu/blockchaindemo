@@ -95,9 +95,9 @@ The node-red starter template default to binding Node-RED app and Cloudant DB. T
 Now you complete the your Node-RED build part in this guide
 
 ----
-# Guide for Blockchain on VirtualBoxVM environment :
+# Next Step -- Follow the Guide for Blockchain on VirtualBoxVM environment --
 
-https://github.com/yidlhu/blockchaindemo/blob/master/Guide For VirtualBoxVM.MD
+`https://github.com/yidlhu/blockchaindemo/blob/master/Guide For VirtualBoxVM.MD`
 
 ----
 # Optional Guide:
