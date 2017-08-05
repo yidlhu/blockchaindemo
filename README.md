@@ -66,7 +66,7 @@ The node-red starter template default to binding Node-RED app and Cloudant DB. T
 
 4) 'URL' input box value is 'ws://sensoriot.mybluemix.net/ws/iot', select 'Send/Recieve Payload' options, then click 'Update' button, it will move to the previous page, then you can input the nick name for node or leave it as empty. Then, click 'Done' button to finish the configuration.(I input the nick name 'iot-device' for this node in my sample)
 
-<img width="1000" alt="screen shot 2017-08-02 at 11 39 23 am" src="https://user-images.githubusercontent.com/6285682/28859580-c42d9c18-778a-11e7-940f-d36b6fa54a24.png">
+<img width="540" alt="screen shot 2017-08-05 at 3 10 32 pm" src="https://user-images.githubusercontent.com/6285682/28993747-a46b5d26-79f0-11e7-951f-93b80edc4748.png">
 
 <img width="1009" alt="screen shot 2017-08-02 at 11 39 42 am" src="https://user-images.githubusercontent.com/6285682/28859581-c601d5b8-778a-11e7-9590-31c8b82098c2.png">
 
