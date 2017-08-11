@@ -10,19 +10,21 @@
 - Click `Start` button of Ubuntu in VirtualBox window
 <img width="802" alt="-users-huyi-workspace2-wuhan-innovationday2017-vm-ubuntu finder at 12 55 39" src="https://user-images.githubusercontent.com/18717367/28906767-47b98b20-784c-11e7-83e5-c4eb51843527.png" style="max-width:100%;">
 
-***
 # 2. Setup DEMO Envionrment
 ## 2.1. Modify startup shell
 - Open folder `Desktop/Blockchain` in Ubuntu VM
 - modify file `startup.sh` by texteditor
 - Find the command below：
-
-#### export WS_URL=wss://`clientnode`.mybluemix.net/ws/client/`data` 
+```
+export WS_URL=wss://`clientnode`.mybluemix.net/ws/client/`data` 
+```
 - change `data` to `blockchain`
 - instead `clientnode` by Node-Red app name just created in your bluemix account.For how to create Node-Red app in bluemix, please refer the guide below.
 https://github.com/yidlhu/blockchaindemo/blob/master/README.md
-#### just like below after you mofified
-#### export WS_URL=wss://`yournoderedname`.mybluemix.net/ws/client/`blockchain`
+- just like below after you mofified
+```
+export WS_URL=wss://`yournoderedname`.mybluemix.net/ws/client/`blockchain`
+```
 
 ## 2.2. Startup Environment
 - Open Terminal and input the commands below:
