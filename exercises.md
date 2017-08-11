@@ -48,5 +48,5 @@
 - Define an invoke function named `SetValue` with 2 arguments: `Account` and `Balence`
 - Define a query function named `GetValue` with 1 argument: `Account` to return the current value of the account.
 - Deploy the chaincode again
-- Access `SetValue` function by shell  `exercise/SetValue.sh`
-- Access `GetValue` function by shell  `exercise/GetValue.sh`
+- Access `SetValue` function by shell  `exercises/SetValue.sh`
+- Access `GetValue` function by shell  `exercises/GetValue.sh`
