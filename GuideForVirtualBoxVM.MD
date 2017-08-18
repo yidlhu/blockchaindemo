@@ -24,7 +24,7 @@ https://github.com/yidlhu/blockchaindemo/blob/master/README.md
 
 - or please refer screen shot below, please use the address you just set last time in your node.red setting to replace your export statement. 
 <img src="https://user-images.githubusercontent.com/18717367/29443048-0423cb06-8408-11e7-94bf-296a03e16db8.png" style="max-width:100%;">
-- just like below after you mofified
+- just like below after you mofified, in the screen shot it is eu-gb, PLEASE NOTICE that your ORG coulde be different.
 
 ```
 export WS_URL=wss://`yournoderedname`.`your bluemix ORG if not US`.mybluemix.net/ws/client/`blockchain`
