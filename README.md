@@ -90,17 +90,32 @@ The node-red starter template default to binding Node-RED app and Cloudant DB. T
 
 9) Drag the entry point and connect the nodes betwee 'jason' and 'Websocket' node your created just now. Then click the 'Deploy' button on the top of righ side.
 
-<img width="1252" alt="screen shot 2017-08-02 at 1 42 06 pm" src="https://user-images.githubusercontent.com/6285682/28859735-ace77ee2-778b-11e7-8cc1-4015457e2926.png">
+<img width="1252" alt="screen shot 2017-08-02 at 1 42 06 pm" src="https://user-images.githubusercontent.com/18717367/29443040-f7d70bf6-8407-11e7-88e2-b1c3470546ff.png">
+
+
+10) please remember we will use  the websocket link in this page in later step.
+<img width="1252" alt="screen shot 2017-08-02 at 1 42 06 pm" src="https://user-images.githubusercontent.com/18717367/29443048-0423cb06-8408-11e7-94bf-296a03e16db8.png">
 
 Now you complete the your Node-RED build part in this guide
-
 ----
-# Next Step -- Follow the Guide for Blockchain on VirtualBoxVM environment --
-
+#  Next Step -- Follow the Guide for Blockchain on VirtualBoxVM environment --
+#
+# 请点击下面链接进行Blockchain的配置
 https://github.com/yidlhu/blockchaindemo/blob/master/GuideForVirtualBoxVM.MD
 
+#
+#
+#
+#
+
+
+
+
+
+
+
 ----
-# 下面的Guide是可选的步骤,非虚拟机环境的Guide,耗时比较长, Optional Guide:
+# 下面的Guide是可选的步骤,非虚拟机环境的Guide,耗时比较长，建议在课后练习, Optional Guide:
 ***
 ***
 # How to deploy blockchain demo into local docker environment
