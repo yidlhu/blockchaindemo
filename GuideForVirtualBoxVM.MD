@@ -19,11 +19,15 @@
 export WS_URL=wss://`clientnode`.mybluemix.net/ws/client/`data` 
 ```
 - change `data` to `blockchain`
-- instead `clientnode` by Node-Red app name just created in your bluemix account.For how to create Node-Red app in bluemix, please refer the guide below.
+- instead `clientnode` by Node-Red app name just created in your bluemix account.For how to create Node-Red app in bluemix, please refer  in the guide below.
 https://github.com/yidlhu/blockchaindemo/blob/master/README.md
+
+- or please refer screen shot below, please use the address you just set last time in your node.red setting to replace your export statement. 
+<img src="https://user-images.githubusercontent.com/18717367/29443048-0423cb06-8408-11e7-94bf-296a03e16db8.png" style="max-width:100%;">
 - just like below after you mofified
+
 ```
-export WS_URL=wss://`yournoderedname`.mybluemix.net/ws/client/`blockchain`
+export WS_URL=wss://`yournoderedname`.`your bluemix ORG if not US`.mybluemix.net/ws/client/`blockchain`
 ```
 
 ## 2.2. Startup Environment
