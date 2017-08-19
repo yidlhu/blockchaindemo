@@ -112,7 +112,7 @@ https://github.com/yidlhu/blockchaindemo/blob/master/GuideForVirtualBoxVM.MD
 
 ***
 ***
-# <下午Blockchain练习 >How to deploy blockchain demo into local docker environment
+# < 这一部分比较耗时，已经在虚拟机里面配置完毕，大家不必重新配置，建议课后自行练习 >How to deploy blockchain demo into local docker environment
 
 The goal is to deploy blockchain demo on local blockchain docker images.  It is a blockchain demo for 2017 innovation day training.
 
@@ -179,6 +179,10 @@ http://localhost:3000/
 http://192.168.99.100:3000/
 
 <img width="1440" alt="9 visit app with browser" src="https://user-images.githubusercontent.com/30460101/28655934-7b7466ea-72d1-11e7-86c5-687ab8320b6c.png">
+
+---
+---
+# <下午练习>
 
 # Exercises:
 ## 1. Make a chaincode "hello" and do unit testing.
