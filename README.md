@@ -108,14 +108,8 @@ https://github.com/yidlhu/blockchaindemo/blob/master/GuideForVirtualBoxVM.MD
 #
 #
 
-
-
-
-
-
-
 ----
-# 下面的Guide是可选的步骤,非虚拟机环境的Guide,耗时比较长，建议在课后练习, Optional Guide:
+
 ***
 ***
 # How to deploy blockchain demo into local docker environment
