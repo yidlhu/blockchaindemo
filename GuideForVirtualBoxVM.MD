@@ -4,7 +4,7 @@
 #### 1.2.1. Installer Folder： InnovationDay/VirtualBoxInstall
 - VirtualBox-5.1.24-117012-OSX.dmg (MAC)
 - VirtualBox-5.1.24-117012-Win.exe (WIN)
-#### 1.2.2. Extract InnovationDay/InnovationDay2017-VM.zip -- for old Thinkpad 4x0 User, will not succesfully unzip, please just copy extracted 8G `Ubuntu` folder from usb harddisk, usb stick does not contain the folder. 
+#### 1.2.2. Extract InnovationDay/InnovationDay2017-VM.zip , you will have a extracted folder 'Ubuntu' -- for old Thinkpad 4x0 User, will not succesfully unzip, please just copy extracted 8G `Ubuntu` folder from usb harddisk, usb stick does not contain the folder. 
 #### 1.2.3. Load VirtualBoxVM IMAGE as below step：
 - Double click InnovationDay/InnovationDay2017-VM/Ubuntu/Ubuntu.vbox
 - Click `Start` button of Ubuntu in VirtualBox window
