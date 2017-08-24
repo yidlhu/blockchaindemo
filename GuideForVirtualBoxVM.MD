@@ -1,14 +1,19 @@
 # 1. Install VirtualBox and load VM into VirtualBox
-### 1.1. Copy **InnovationDay** folder from USBDisk to your PC.
+### 1.1. Copy **InnovationDay** folder from USBDisk to your MAC/PC. -- If you are using old Thinkpad, please copy `Ubuntu` folder as well (only exist in usb harddisk not usb stick).
 ### 1.2. Install **VirtualBox**
 #### 1.2.1. Installer Folder： InnovationDay/VirtualBoxInstall
 - VirtualBox-5.1.24-117012-OSX.dmg (MAC)
 - VirtualBox-5.1.24-117012-Win.exe (WIN)
-#### 1.2.2. Extract InnovationDay/InnovationDay2017-VM.zip
+#### 1.2.2. Extract InnovationDay/InnovationDay2017-VM.zip -- for old Thinkpad 4x0 User, will not succesfully unzip, please just copy extracted 8G `Ubuntu` folder from usb harddisk, usb stick does not contain the folder. 
 #### 1.2.3. Load VirtualBoxVM IMAGE as below step：
 - Double click InnovationDay/InnovationDay2017-VM/Ubuntu/Ubuntu.vbox
 - Click `Start` button of Ubuntu in VirtualBox window
 <img width="802" alt="-users-huyi-workspace2-wuhan-innovationday2017-vm-ubuntu finder at 12 55 39" src="https://user-images.githubusercontent.com/18717367/28906767-47b98b20-784c-11e7-83e5-c4eb51843527.png" style="max-width:100%;">
+
+#### 1.2.4 Troublsomeshooting
+### If you are Thinkpad user, and met problem to open virtualbox, try to turn on intel virtualization switch from bios.
+<img src="https://user-images.githubusercontent.com/18717367/29648356-3f1f8116-88c0-11e7-8ec2-909abdb7d1af.JPG" style="max-width:100%;">
+<img src="https://user-images.githubusercontent.com/18717367/29648371-53f86cb0-88c0-11e7-9261-e5fd1eef33b1.JPG" style="max-width:100%;">
 
 # 2. Setup DEMO Envionrment
 ## 2.1. Modify startup shell
