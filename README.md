@@ -187,31 +187,47 @@ http://192.168.99.100:3000/
 # Exercises:
 ## 1. Make a chaincode "hello" and do unit testing.
 ### 1.1. enter the fabric_client environment of Docker Container(In new Terminal)
-`docker exec -it client_dev_s /bin/bash`
+```
+docker exec -it client_dev_s /bin/bash
+```
 ### 1.2. compile chaincode
-`cd $GOPATH/src/chaincodes/hello`
-`go build`
+```
+cd $GOPATH/src/chaincodes/hello
+go build
+```
 ### 1.3. do unit testing
-`go test`
-
+```
+go test
+```
 ## 2. Startup chaincode "hello" in DEV mode by REST
 ### 2.1. enter the fabric_client environment of Docker Container(In new Terminal)
-`docker exec -it client_dev_s /bin/bash`
+```
+docker exec -it client_dev_s /bin/bash
+```
 ### 2.2. startup chaincode DEV environment
-`cd $GOPATH/src/chaincodes/hello/scripts`
-`./startup.sh`
-
+```
+cd $GOPATH/src/chaincodes/hello/scripts
+./startup.sh
+```
 ## 3. Access chaincode "hello" by REST (Deploy, Invoke, Query)
 ### 3.1. enter the fabric_client environment of Docker Container(In new Terminal)
-`docker exec -it client_dev_s /bin/bash`
+```
+docker exec -it client_dev_s /bin/bash
+```
 ### 3.2. deploy chaincode
-`cd $GOPATH/src/chaincodes/hello/scripts`
-`./enroll.sh`
-`./deploy.sh`
+```
+cd $GOPATH/src/chaincodes/hello/scripts
+./enroll.sh
+./deploy.sh
+```
 ### 3.3. invoke chaincode
-`./invoke.sh`
+```
+./invoke.sh
+```
 ### 3.4. query chaincode
-`./query.sh`
+```
+./query.sh
+```
 
 
 # Tips:
